@@ -32,7 +32,6 @@ public class Deck {
     public void setName(String name) {
         this.name = name;
     }
-
     @Override
     public String toString() {
         return "Deck{id=" + id + ", name='" + name + "'}";
